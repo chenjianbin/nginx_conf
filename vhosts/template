@@ -12,8 +12,8 @@ server
                 }
         }
         include setup/common/*.conf;
-        include setup/ssl/*.conf;
-        include setup/auth/*.conf;
+        #include setup/ssl/*.conf;
+        #include setup/auth/*.conf;
         include setup/php/thinkphp.conf;
 
 }
