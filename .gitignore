@@ -2,4 +2,5 @@ vhosts/*
 setup/ssl/files/*
 setup/auth/htpasswd/*
 !vhosts/template
+!vhosts/default_server.conf
 !.gitkeep
