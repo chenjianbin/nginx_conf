@@ -1,6 +1,6 @@
 vhosts/*
-setup/ssl/files/*
-setup/auth/htpasswd/*
-!vhosts/template
+ssl.d/*
+!ssl.d/default
+conf.d/auth/htpasswd/*
 !vhosts/default_server.conf
 !.gitkeep
